@@ -1,3 +1,3 @@
 export class CreateSpotDto {
-    name:string;
+  name: string;
 }

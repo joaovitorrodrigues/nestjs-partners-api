@@ -15,7 +15,7 @@ export class SpotsService {
       },
     });
 
-    if (!event){
+    if (!event) {
       throw new Error('Event not found');
     }
     return this.prismaService.spot.create({
